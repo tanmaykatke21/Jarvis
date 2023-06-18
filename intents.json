@@ -1,0 +1,92 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello jarvis","hello", "jarvis", "wake up jarvis", "you there jarvis", "time to work jarvis", "hey jarvis",
+            "ok jarvis", "are you there"],
+            "responses":["always there for you master", "i am ready master",
+            "your wish my command", "how can i help you master?", "i am online and ready master"]
+        },
+        {
+            "tag":"breakup",
+            "patterns":["bye","take a break","good bye","see you later","sleep","exit"
+
+            ],
+            "responses":["Good bye Master",
+                        "Alright, I will take a break now",
+                        "Going offline",
+                        "see you later",
+                        "Alright master, going offline. It was nice working with you"
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["who are you","what are you","what's your identity","what is your name","what should i call you","how to refer to you"
+            ],
+            "responses":["I am Jarvis",
+                        "My name is Jarvis, i am an A.I. Assistant",
+                        "I am your assistant today. you can call me jarvis",
+                        "This is Jarvis at your Service master"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","are you doing good?","how are you feeling today","how you doing"
+            ],
+            "responses":["I am doing great today",
+                        "am fine. how are you?",
+                        "am doing good, thank you for asking",
+                        "it's going great with me"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["time","kitne baje","samay"
+            ],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["date","today's date","date today","din"
+            ],
+            "responses":["date"
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["day","today's day","day today"
+            ],
+            "responses":["day"
+            ]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":["take screenshot","snapshot","screen print","print screen"
+            ],
+            "responses":["day"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","wikipedia"
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["google","search","search on internet"
+            ],
+            "responses":["google"
+            ]
+        },
+        {
+            "tag":"news",
+            "patterns":["headlines","news","buzzing"
+            ],
+            "responses":["google"
+            ]
+        }
+
+    ]
+}
